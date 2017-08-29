@@ -116,7 +116,8 @@ a:focus {
 
 /* All Section styles */
 #about,
-#feature,
+#benefits,
+#features,
 #video-a,
 #video-b,
 #menu,
@@ -128,7 +129,8 @@ a:focus {
   padding-bottom: 100px;
 }
 
-#feature,
+#benefits,
+#features,
 #video-a,
 #video-b,
 #team,
@@ -137,7 +139,8 @@ a:focus {
   text-align: center;
 }
 
-#feature,
+#benefits,
+#features,
 #team {
   background: rgb(240,240,240);
 }
@@ -303,14 +306,14 @@ a:focus {
 
 
 
-/* Feature section */
-#feature .feature-thumb {
+/* benefits section */
+#benefits .benefits-thumb {
   background-color: #ffffff;
   position: relative;
   padding: 40px;
   margin-top: 32px;
 }
-#feature .feature-icon {
+#benefits .benefits-icon {
   background-color: #222;
   width: 85px;
   height: 85px;
@@ -327,24 +330,69 @@ a:focus {
   text-align: center;
   transition: all 0.4s ease-in-out;
 }
-#feature .feature-icon:hover {
+#benefits .benefits-icon:hover {
   background-color: #c21500;
 }
-#feature .feature-icon span {
+#benefits .benefits-icon span {
   display: table-cell;
   vertical-align: middle;
 }
-#feature .feature-icon .fa {
+#benefits .benefits-icon .fa {
   color: #ffffff;
   font-size: 36px;
   margin: 0;
   padding: 0;
 }
 
-#feature h3 {
+#benefits h3 {
   padding-top: 14px;
   padding-bottom: 10px;
 }
+
+
+/* features section */
+#features .feature-thumb {
+  background-color: #ffffff;
+  position: relative;
+  padding: 40px;
+  margin-top: 32px;
+}
+#features .feature-icon {
+  background-color: #222;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+  top: 0;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: table;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+#features .feature-icon:hover {
+  background-color: #c21500;
+}
+#features .feature-icon span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#features .feature-icon .fa {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+#features h3 {
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
 
 
 
@@ -656,7 +704,7 @@ a:focus {
 
 /* Contact section  */
 #contact {
-  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+/*  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -787,7 +835,8 @@ footer strong {
     height: 65vh;
   }
 
-  #feature .col-md-4:last-child,
+  #benefits .col-md-4:last-child,
+	#features .col-md-4:last-child,
   #about .col-md-4 {
     margin-top: 42px;
   }
@@ -828,7 +877,8 @@ footer strong {
     line-height: 30px;
   }
 
-  #feature .col-md-4,
+  #benefits .col-md-4,
+	#features .col-md-4,
   #about .col-md-5,
   footer .col-md-4 {
     padding-top: 20px;
@@ -854,13 +904,19 @@ footer strong {
     font-size: 30px;
   }
 
-  #feature {
+  #benefits {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
+	#features {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
   #about,
-  #feature,
+  #benefits,
+	#features,
   #video-a,
 	#video-b,
   #menu,
