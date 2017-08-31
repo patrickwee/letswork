@@ -835,7 +835,7 @@ footer strong {
     height: 65vh;
   }
 
-  #benefits .col-md-4:last-child,
+  #benefits,
 	#features .col-md-4:last-child,
   #about .col-md-4 {
     margin-top: 42px;
