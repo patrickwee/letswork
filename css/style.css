@@ -859,7 +859,7 @@ footer strong {
 
 @media (max-width: 900px) {
 
-  h1 {font-size: 70px;}
+  h1 {font-size: 50px;}
 
 }
 
@@ -902,7 +902,7 @@ footer strong {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   h2 {
     font-size: 30px;
