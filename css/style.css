@@ -6,34 +6,6 @@ http://www.tooplate.com/view/2083-steak-house
 
 */
 
-/*Patrick*/
-
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-
-.logo {
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-bottom: 5px;
-}
-
-.spacer {
-    margin-top: 40px;
-}
-
-.spacer-small {
-    margin-top: 10px;
-}
-.paddleft{
-	padding-left:30px;
-}
-
-.white{
-	color: white;
-}
-/*Patrick*/
 
 
 
@@ -533,7 +505,7 @@ a:focus {
 }
 
 #fun .media-object img {
-  width: 220px;
+  width: 150px;
   padding-right: 12px;
   position: relative;
 }
@@ -981,3 +953,36 @@ footer strong {
   footer {text-align: center;}
 
 }
+
+
+
+
+/*Patrick*/
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.spacer {
+    margin-top: 40px;
+}
+
+.spacer-small {
+    margin-top: 10px;
+}
+.paddleft{
+	padding-left:30px;
+}
+
+.white{
+	color: white;
+}
+/*Patrick*/
