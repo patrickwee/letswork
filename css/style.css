@@ -8,6 +8,11 @@ http://www.tooplate.com/view/2083-steak-house
 
 /*Patrick*/
 
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 .logo {
 	padding-top: 10px;
 	padding-left: 10px;
@@ -83,6 +88,11 @@ h3 {
    color: #555;
 }
 
+#fun h3 {
+   color: #555;
+}
+
+
 h4 {
   font-size: 12px;
   font-weight: bold;
@@ -125,6 +135,7 @@ a:focus {
 #video-a,
 #video-b,
 #menu,
+#fun,
 #team,
 #gallery,
 #contact {
@@ -155,6 +166,7 @@ a:focus {
 .section-title {
   padding-bottom: 70px;
 }
+#fun .section-title,
 #about .section-title,
 #menu .section-title {
   text-align: center;
@@ -505,6 +517,28 @@ a:focus {
 }
 
 #menu .media-object span.menu-price {
+  position: absolute;
+  background-color: #ffffff;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 20px;
+  top: 50%;
+  left: 3%;
+}
+
+/* Fun section */
+#fun .media {
+  padding-bottom: 20px;
+}
+
+#fun .media-object img {
+  width: 220px;
+  padding-right: 12px;
+  position: relative;
+}
+
+#fun .media-object span.fun-price {
   position: absolute;
   background-color: #ffffff;
   color: #222;
@@ -923,6 +957,7 @@ footer strong {
 	#features,
   #video-a,
 	#video-b,
+	#fun,
   #menu,
   #team,
   #gallery,
@@ -931,11 +966,14 @@ footer strong {
     padding-bottom: 80px;
   }
 
+	#fun .media-object img,
   #menu .media-object img {
     width: 100%;
     padding-bottom: 14px;
   }
-  #menu .media-object span.menu-price {
+
+	#fun .media-object span.fun-price,
+  #menu .media-object span.fun-price {
     top: 30%;
     left: 6%;
   }
