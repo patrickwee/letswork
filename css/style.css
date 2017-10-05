@@ -938,10 +938,14 @@ footer strong {
     padding-bottom: 80px;
   }
 
-	#fun .media-object img,
   #menu .media-object img {
     width: 100%;
     padding-bottom: 14px;
+  }
+
+	#fun .media-object img {
+    width: 40%;
+    padding-bottom: 5px;
   }
 
 	#fun .media-object span.fun-price,
